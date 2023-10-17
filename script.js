@@ -1,3 +1,6 @@
+import { MY_API_KEY } from "./config";
+
+
 const srcText = document.getElementById('srctext');
 const destText = document.getElementById('desttext');
 const srcLang = document.getElementById('srclang');
@@ -14,7 +17,7 @@ const displayResult = async () => {
         method: 'POST',
         headers: {
             'content-type': 'application/x-www-form-urlencoded',
-            'X-RapidAPI-Key': '76f08d6af4mshf25b541d9842175p120d89jsn50099816dfa1',
+            'X-RapidAPI-Key': MY_API_KEY,
             'X-RapidAPI-Host': 'text-translator2.p.rapidapi.com'
         },
         body: new URLSearchParams({
@@ -32,7 +35,7 @@ btn.addEventListener('click', displayResult);
 
 const showResult = async ()=>{
     let output = '';
-    
+
 }
 
 
