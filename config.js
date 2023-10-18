@@ -1,3 +1,3 @@
-MY_API_KEY = '76f08d6af4mshf25b541d9842175p120d89jsn50099816dfa1';
+MY_API_KEY = 'Input ur API Key';
 
 export {MY_API_KEY};
